@@ -1,5 +1,5 @@
 <?php
-include('db.php'); 
+include('db.php');  
 // $email      = "maham";
 // $password   = "maham123";
 if(isset($_SESSION["username"])){
