@@ -75,7 +75,7 @@ $result=mysqli_query($conn,"Select * from student");
 <body>
     <!-- Navbar -->
     <?php include("nav_menu.php"); ?>
-    <!-- Apartment Form -->
+    <!-- Student Form -->
     <div class="container mt-5">
         <h2 class="text-center">STUDENT FORM</h2>
         <div>
@@ -111,7 +111,7 @@ $result=mysqli_query($conn,"Select * from student");
             </div>
             <button type="submit" class="btn btn-primary btn-block">Submit</button>
         </form> 
-    <!-- apartment table -->
+    <!-- Student table -->
     <h2 class="mt-5">student</h2>
     <table class="table table-bordered">
         <thead>
