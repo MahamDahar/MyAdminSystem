@@ -69,7 +69,7 @@ $duplicatecheckquery="  SELECT * from subject_of_teacher
 <body>
     <!-- Navbar -->
     <?php include("nav_menu.php"); ?>
-    <!-- Apartment Form -->
+    <!-- Subject of teacher Form -->
     <div class="container mt-5">
         <h2 class="text-center">subject of Teacher form</h2>
         <div>
@@ -121,7 +121,7 @@ $duplicatecheckquery="  SELECT * from subject_of_teacher
          </div> 
         <button type="submit" class="btn btn-primary btn-block">Submit</button>
         </form> 
-    <!-- apartment table -->
+    <!-- Subject of teacher table -->
     <h2 class="mt-5">subject of class</h2>
     <table class="table table-bordered">
         <thead>     

@@ -54,7 +54,7 @@ if(isset($_POST['is_submit'])){
 <body>
     <!-- Navbar -->
     <?php include("nav_menu.php"); ?>
-    <!-- roles Form -->
+    <!-- Permission Form -->
     <div class="container mt-5">
         <h2 class="text-center">roles Form</h2>
         <div>
@@ -89,7 +89,7 @@ if(isset($_POST['is_submit'])){
            $sql= "SELECT a.* FROM roles a ";
             $result = mysqli_query($conn, $sql);
             ?>
-         <!-- Rent Payments Table -->
+         <!-- Permission Table -->
         <h2 class="mt-5">Roles</h2>
         <table class="table table-bordered">
             <thead>

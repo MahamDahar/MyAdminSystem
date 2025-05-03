@@ -67,7 +67,7 @@ $result=mysqli_query($conn,"Select * from subject");
 <body>
     <!-- Navbar -->
     <?php include("nav_menu.php"); ?>
-    <!-- Class Form -->
+    <!-- Subject Form -->
     <div class="container mt-5">
         <h2 class="text-center">SUBJECT FORM</h2>
         <div>
@@ -87,7 +87,7 @@ $result=mysqli_query($conn,"Select * from subject");
             </div>
             <button type="submit" class="btn btn-primary btn-block">Submit</button>
         </form> 
-    <!-- Class table -->
+    <!-- Subject table -->
     <h2 class="mt-5">SUBJECT</h2>
     <table class="table table-bordered">
         <thead>
