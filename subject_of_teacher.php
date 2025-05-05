@@ -5,7 +5,8 @@ if(!isset($_GET['menu_id'])){
     header("Location: logout.php");
 }
 if(isset($delete_id)){
-    mysqli_query($conn,"Delete from subject_of_teacher where subj_of_teacher_id=$delete_id");
+    $sql="Delete from subject_of_teacher where subj_of_teacher_id=$delete_id";
+    mysqli_query($conn,$sql);
     $msg['success']="This record has been deleted successfully";
 }
 
